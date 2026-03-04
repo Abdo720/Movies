@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:movies/routes/App_Router.dart';
+import 'package:movies/routes/app_routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,10 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        return MaterialApp(debugShowCheckedModeBanner: false);
+        return MaterialApp(debugShowCheckedModeBanner: false,
+          initialRoute: AppRoutes.onBoarding,
+          onGenerateRoute: AppRouter.onGenerateRoute,
+        );
       },
     );
   }
