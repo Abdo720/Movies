@@ -1,6 +1,7 @@
 const String imagePath = "assets/images";
 
 abstract class ImagesManager {
+  static const String onBoarding = "$imagePath/OnBoarding.png";
   static const String onBoarding2 = "$imagePath/onBoarding2.png";
   static const String onBoarding3 = "$imagePath/onBoarding3.png";
   static const String onBoarding4 = "$imagePath/onBoarding4.png";
