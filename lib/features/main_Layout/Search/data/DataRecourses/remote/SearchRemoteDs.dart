@@ -1,0 +1,5 @@
+import 'package:movies/features/main_Layout/Home/data/models/MoviesResponse.dart';
+
+abstract class Searchremoteds {
+  Future<MoviesResponse> search(String word, {int page = 1, int limit = 50});
+}

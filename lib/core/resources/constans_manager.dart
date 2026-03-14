@@ -1,0 +1,72 @@
+import 'package:movies/core/resources/images_manager.dart';
+
+enum RequstState { init, loading, succes, failure }
+
+class ConstansManager {
+  static final List<String> movieGenres = [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Biography",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "Film-Noir",
+    "History",
+    "Horror",
+    "Musical",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Sport",
+    "Thriller",
+    "War",
+    "Western",
+    "News",
+    "Reality-TV",
+    "Talk-Show",
+    "Game-Show",
+  ];
+  static final Map<String, String> genreLocalizationKey = {
+    "Action": "genre_action",
+    "Adventure": "genre_adventure",
+    "Animation": "genre_animation",
+    "Biography": "genre_biography",
+    "Comedy": "genre_comedy",
+    "Crime": "genre_crime",
+    "Documentary": "genre_documentary",
+    "Drama": "genre_drama",
+    "Family": "genre_family",
+    "Fantasy": "genre_fantasy",
+    "Film-Noir": "genre_film_noir",
+    "History": "genre_history",
+    "Horror": "genre_horror",
+    "Musical": "genre_musical",
+    "Mystery": "genre_mystery",
+    "Romance": "genre_romance",
+    "Sci-Fi": "genre_scifi",
+    "Sport": "genre_sport",
+    "Thriller": "genre_thriller",
+    "War": "genre_war",
+    "Western": "genre_western",
+    "News": "genre_news",
+    "Reality-TV": "genre_reality_tv",
+    "Talk-Show": "genre_talk_show",
+    "Game-Show": "genre_game_show",
+  };
+
+  static final List<String> photos = [
+    ImagesManager.avtar1,
+    ImagesManager.avtar2,
+    ImagesManager.avtar3,
+    ImagesManager.avtar4,
+    ImagesManager.avtar5,
+    ImagesManager.avtar6,
+    ImagesManager.avtar7,
+    ImagesManager.avtar8,
+    ImagesManager.avtar9,
+  ];
+}
